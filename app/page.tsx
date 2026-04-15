@@ -63,14 +63,14 @@ export default function Home() {
     <p>Secure, steady and reliable network architecture and design.</p>
   </div>
 
-        {/* CARD 4 */}
+        {/* CARD 5 */}
           <div className="p-6 rounded-xl shadow hover:shadow-xl transition">
     <MonitorCheck size={40} className="mx-auto mb-4 text-sky-500" />
     <h3 className="text-xl font-bold mb-2">IT Support</h3>
     <p>Hardware and Software support for enterprises and small businesses.</p>
   </div>
 
-        {/* CARD 4 */}
+        {/* CARD 6 */}
           <div className="p-6 rounded-xl shadow hover:shadow-xl transition">
     <Megaphone size={40} className="mx-auto mb-4 text-sky-500" />
     <h3 className="text-xl font-bold mb-2">Digital Marketing</h3>
