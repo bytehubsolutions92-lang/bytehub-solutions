@@ -1,4 +1,4 @@
-import { Shield, Cloud, Code } from "lucide-react";
+import { Shield, Cloud, Code, Network, MonitorCheck, Megaphone } from "lucide-react";
 
 export default function Home() {
   return (
@@ -56,6 +56,26 @@ export default function Home() {
     <p>Reliable, scalable cloud infrastructure for modern businesses.</p>
   </div>
 
+          {/* CARD 4 */}
+          <div className="p-6 rounded-xl shadow hover:shadow-xl transition">
+    <Network size={40} className="mx-auto mb-4 text-sky-500" />
+    <h3 className="text-xl font-bold mb-2">Networking</h3>
+    <p>Secure, steady and reliable network architecture and design.</p>
+  </div>
+
+        {/* CARD 4 */}
+          <div className="p-6 rounded-xl shadow hover:shadow-xl transition">
+    <MonitorCheck size={40} className="mx-auto mb-4 text-sky-500" />
+    <h3 className="text-xl font-bold mb-2">IT Support</h3>
+    <p>Hardware and Software support for enterprises and small businesses.</p>
+  </div>
+
+        {/* CARD 4 */}
+          <div className="p-6 rounded-xl shadow hover:shadow-xl transition">
+    <Megaphone size={40} className="mx-auto mb-4 text-sky-500" />
+    <h3 className="text-xl font-bold mb-2">Digital Marketing</h3>
+    <p>Marketing in the morden way, with the internet as the primal target.</p>
+  </div>
         </div>
         
       </section>
