@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --primary: #1B2A4A;
   --accent: #F47B20;
@@ -17,4 +21,8 @@ button {
 
 button:hover {
   transform: scale(1.05);
+}
+
+section {
+  margin-bottom: 60px;
 }

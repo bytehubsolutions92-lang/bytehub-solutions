@@ -2,7 +2,7 @@ import { Shield, Cloud, Code } from "lucide-react";
 
 export default function Home() {
   return (
-    <main>
+    <main className="max-w-6x1 mx-auto">
 
       {/* HERO */}
       <section 
@@ -20,11 +20,11 @@ export default function Home() {
         </p>
 
         <button 
-          className="px-8 py-4 rounded text-white font-semibold text-lg transition hover:scale-105"
-          style={{ background: "var(--accent)" }}
-        >
-          Get Started
-        </button>
+        className="px-8 py-4 rounded-lg text-white font-semibold text-lg shadow-md hover:shadow-lg transition"
+        style={{ background: "var(--accent)" }}
+      >
+        Get Started
+      </button>
       </section>
 
       {/* SERVICES */}
@@ -36,39 +36,30 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8">
 
           {/* CARD 1 */}
-          <div className="p-6 rounded-xl shadow hover:shadow-xl transition text-center">
-            <Code size={40} className="mx-auto mb-4 text-blue-500" />
-            <h3 className="text-xl font-bold mb-2">
-              Software Development
-            </h3>
-            <p>
-              Custom-built applications designed to scale with your business.
-            </p>
-          </div>
+          <div className="p-6 rounded-xl shadow hover:shadow-xl transition">
+    <Code size={40} className="mx-auto mb-4 text-blue-500" />
+    <h3 className="text-xl font-bold mb-2">Software Development</h3>
+    <p>Custom-built applications designed to scale with your business.</p>
+  </div>
 
           {/* CARD 2 */}
-          <div className="p-6 rounded-xl shadow hover:shadow-xl transition text-center">
-            <Shield size={40} className="mx-auto mb-4 text-green-500" />
-            <h3 className="text-xl font-bold mb-2">
-              Cybersecurity
-            </h3>
-            <p>
-              Protect your systems with advanced security solutions.
-            </p>
-          </div>
+          <div className="p-6 rounded-xl shadow hover:shadow-xl transition">
+    <Shield size={40} className="mx-auto mb-4 text-green-500" />
+    <h3 className="text-xl font-bold mb-2">Cybersecurity</h3>
+    <p>Protect your systems with advanced security solutions.</p>
+  </div>
 
           {/* CARD 3 */}
-          <div className="p-6 rounded-xl shadow hover:shadow-xl transition text-center">
-            <Cloud size={40} className="mx-auto mb-4 text-sky-500" />
-            <h3 className="text-xl font-bold mb-2">
-              Cloud Computing
-            </h3>
-            <p>
-              Reliable, scalable cloud infrastructure for modern businesses.
-            </p>
-          </div>
+          <div className="p-6 rounded-xl shadow hover:shadow-xl transition">
+    <Cloud size={40} className="mx-auto mb-4 text-sky-500" />
+    <h3 className="text-xl font-bold mb-2">Cloud Computing</h3>
+    <p>Reliable, scalable cloud infrastructure for modern businesses.</p>
+  </div>
 
         </div>
+        <div className="bg-red-500 text-white p-10">
+  Tailwind Test
+</div>
       </section>
 
     </main>
