@@ -6,8 +6,7 @@ export default function Home() {
 
       {/* HERO */}
       <section 
-  className="text-center py-28 px-6"
-  style={{ background: "var(--primary)", color: "white" }}
+  className="text-center py-28 px-6 text-white bg-gradient-to-r from-[#1B2A4A] via-[#2A9FD6] to-[#1B2A4A]"
 >
   <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
     Building Secure & Scalable <br /> Digital Solutions
@@ -20,8 +19,8 @@ export default function Home() {
 
   <div className="flex justify-center gap-4 flex-wrap">
     <button 
-      className="px-8 py-4 rounded-lg text-white font-semibold shadow-md"
-      style={{ background: "var(--accent)" }}
+      className="px-8 py-4 rounded-lg text-white font-semibold shadow-md 
+bg-gradient-to-r from-[#F47B20] to-[#2A9FD6] hover:opacity-90 transition"
     >
       Get Started
     </button>
@@ -36,10 +35,11 @@ export default function Home() {
 </section>
 
       {/* SERVICES */}
-<section className="py-24 px-6 md:px-10 bg-gray-50">
-  <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-    Our Services
-  </h2>
+<section className="py-20 px-6 border-t border-gray-200">
+  <h2 className="text-3xl font-bold text-center mb-12 
+bg-gradient-to-r from-[#2A9FD6] to-[#F47B20] bg-clip-text text-transparent">
+  Our Services
+</h2>
 
   <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
 
@@ -101,10 +101,11 @@ export default function Home() {
 </section>
 
       {/* Why choose Us */}
-      <section className="py-20 px-6">
-  <h2 className="text-3xl font-bold text-center mb-12">
-    Why Choose ByteHub Solutions
-  </h2>
+      <section className="py-20 px-6 border-t border-gray-200">
+  <h2 className="text-3xl font-bold text-center mb-12 
+bg-gradient-to-r from-[#2A9FD6] to-[#F47B20] bg-clip-text text-transparent">
+  Why Choose ByteHub Solutions
+</h2>
 
   <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
 
