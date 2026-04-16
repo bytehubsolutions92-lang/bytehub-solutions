@@ -1,13 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-10 py-4 border-b bg-white">
       
       {/* LOGO */}
-      <h1 className="text-2xl font-bold text-[var(--primary)]">
-        ByteHub Solutions
-      </h1>
+      <Link href="/">
+  <Image 
+    src="/logo.png" 
+    alt="ByteHub Solutions Logo"
+    width={160}
+    height={40}
+  />
+</Link>
 
       {/* LINKS */}
       <div className="flex gap-8 text-sm font-medium">
