@@ -14,8 +14,8 @@ export default function Footer() {
             src="/logo.png" 
             alt="ByteHub Solutions Logo"
             width={120}
-            height={20}
-            className="mb-4"
+            height={40}
+            className="mb-4 h-auto"
           />
 
           <p className="text-gray-400">

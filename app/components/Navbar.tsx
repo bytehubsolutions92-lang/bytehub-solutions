@@ -12,6 +12,7 @@ export default function Navbar() {
     alt="ByteHub Solutions Logo"
     width={120}
     height={40}
+    className="h-auto"
   />
 </Link>
 
