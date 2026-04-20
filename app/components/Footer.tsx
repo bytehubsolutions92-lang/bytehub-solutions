@@ -114,7 +114,7 @@ export default function Footer() {
   {/* LEGAL LINKS */}
   <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400 mb-4">
 
-    <a href="#" className="hover:text-white transition">Terms of Use</a>
+    <a href="/terms" className="hover:text-white transition">Terms of Use</a>
     <a href="#" className="hover:text-white transition">Cookies</a>
     <a href="/privacy" className="hover:text-white transition">Privacy</a>
     <a href="#" className="hover:text-white transition">Sitemap</a>
