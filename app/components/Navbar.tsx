@@ -21,7 +21,7 @@ export default function Navbar() {
         <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
         <Link href="/about" className="hover:text-[var(--accent)]">About</Link>
         <Link href="/services" className="hover:text-[var(--accent)]">Services</Link>
-        <Link href="/projects" className="hover:text-[var(--accent)]">Projects</Link>
+        {/* <Link href="/projects" className="hover:text-[var(--accent)]">Projects</Link> */}
         <Link href="/contact" className="hover:text-[var(--accent)]">Contact</Link>
       </div>
 
