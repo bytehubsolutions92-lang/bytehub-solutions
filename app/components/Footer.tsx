@@ -32,7 +32,7 @@ export default function Footer() {
             <li><Link href="/" className="hover:text-white transition">Home</Link></li>
             <li><Link href="/about" className="hover:text-white transition">About</Link></li>
             <li><Link href="/services" className="hover:text-white transition">Services</Link></li>
-            <li><Link href="/projects" className="hover:text-white transition">Projects</Link></li>
+            {/* <li><Link href="/projects" className="hover:text-white transition">Projects</Link></li> */}
             <li><Link href="/contact" className="hover:text-white transition">Contact</Link></li>
           </ul>
         </div>
@@ -115,10 +115,10 @@ export default function Footer() {
   <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400 mb-4">
 
     <a href="/terms" className="hover:text-white transition">Terms of Use</a>
-    <a href="#" className="hover:text-white transition">Cookies</a>
+    {/* <a href="#" className="hover:text-white transition">Cookies</a> */}
     <a href="/privacy" className="hover:text-white transition">Privacy</a>
-    <a href="#" className="hover:text-white transition">Sitemap</a>
-    <a href="#" className="hover:text-white transition">Accessibility</a>
+    {/* <a href="#" className="hover:text-white transition">Sitemap</a> */}
+    {/* <a href="#" className="hover:text-white transition">Accessibility</a> */}
 
   </div>
 

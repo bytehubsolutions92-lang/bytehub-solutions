@@ -96,7 +96,7 @@ export default function Contact() {
 
         <div className="text-center mt-6 text-gray-600">
   <p>Or contact us directly:</p>
-  <p className="font-semibold">info@bytehubsolutions.com</p>
+  <p className="font-semibold">info@bytehubsolutions.co.za</p>
 </div>
 
         {/* SUCCESS MESSAGE */}
