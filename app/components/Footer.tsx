@@ -138,7 +138,7 @@ export default function Footer() {
       {/* BOTTOM */}
       <div className="mt-10 border-t border-gray-800 pt-6 text-center">
         {/* LEGAL LINKS */}
-        {/* <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400 mb-4">
+        <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400 mb-4">
           <a href="#" className="hover:text-white transition">
             Terms of Use
           </a>
@@ -154,7 +154,7 @@ export default function Footer() {
           <a href="#" className="hover:text-white transition">
             Accessibility
           </a>
-        </div> */}
+        </div>
 
         {/* COPYRIGHT */}
         <p className="text-gray-500 text-sm">
